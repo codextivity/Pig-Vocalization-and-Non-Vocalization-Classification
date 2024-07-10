@@ -1,6 +1,9 @@
 
 # [DCNN for Pig Vocalization and Non-Vocalization Classification: Evaluate Model Robustness with New Data](https://www.mdpi.com/2076-2615/14/14/2029)
 
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/1.png" width="100%"></a>
+</h3>
 
 ## Simple Summary
 
@@ -22,6 +25,20 @@ This study addresses the significance of animal sounds as valuable indicators of
 
 
 ## Citations
+
+@Article{ani14142029,
+AUTHOR = {Pann, Vandet and Kwon, Kyeong-seok and Kim, Byeonghyeon and Jang, Dong-Hwa and Kim, Jong-Bok},
+TITLE = {DCNN for Pig Vocalization and Non-Vocalization Classification: Evaluate Model Robustness with New Data},
+JOURNAL = {Animals},
+VOLUME = {14},
+YEAR = {2024},
+NUMBER = {14},
+ARTICLE-NUMBER = {2029},
+URL = {https://www.mdpi.com/2076-2615/14/14/2029},
+ISSN = {2076-2615},
+DOI = {10.3390/ani14142029}
+}
+
 
 ## Licensing
 
