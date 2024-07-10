@@ -22,7 +22,9 @@ This study addresses the significance of animal sounds as valuable indicators of
   * [model_robustness.py](https://github.com/codextivity/Pig-Vocalization-and-Non-Vocalization-Classification/blob/main/model_robustness.py): This file is used to find model generalization efficiency by conducting robustness experimentation.
 
 ## Installation
-#### Install all required libraries with `pip` or `conda` command. 
+
+Install all required libraries with `pip` or `conda` command. 
+
 ```
 tensorflow=2.10.0
 keras==2.10.0
@@ -37,11 +39,11 @@ scipy==1.10.1
 seaborn==0.13.0
 tensorboard==2.10.1
 tqdm==4.66.1
-
 ```
 
-## Citations
-### BibTeX
+## Citation
+
+BibTeX
 
 ```bibtex
 @Article{ani14142029,
@@ -57,3 +59,14 @@ ISSN = {2076-2615},
 DOI = {10.3390/ani14142029}
 }
 ```
+## Table Content
+
+<!-- TOC -->
+* [DCNN for Pig Vocalization and Non-Vocalization Classification: Evaluate Model Robustness with New Data](#dcnn-for-pig-vocalization-and-non-vocalization-classification--evaluate-model-robustness-with-new-data)
+  * [Simple Summary](#simple-summary)
+  * [What's in this repository?](#whats-in-this-repository)
+  * [Installation](#installation)
+      * [Install all required libraries with `pip` or `conda` command.](#install-all-required-libraries-with-pip-or-conda-command-)
+  * [Citation](#citation)
+    * [BibTeX](#bibtex)
+<!-- TOC -->
