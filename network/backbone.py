@@ -17,7 +17,7 @@ def network_backbone(input_model_size):
     md = Dropout(0.5)(md)
     md = Dense(1000, activation='relu', name='dense_1')(md)
     md = Dropout(0.5)(md)
-    output_md = Dense(4, activation='softmax', name='dense_2')(md)
+    output_md = Dense(2, activation='softmax', name='dense_2')(md)
 
     output_model = Model(input_model_size, output_md)
 

@@ -55,10 +55,9 @@ These are feature type
 '''
 
 
-def dataset_augmentation(X_input, y_input, aug=True):
+def dataset_augmentation(X_input, y_input, feature_type=2, aug=True):
     data_values, data_list, data_labels = [], [], []
     minmax_scaler = preprocessing.MinMaxScaler()
-    feature_type = 2
     sample_rate = 22050
     for i in tqdm(range(len(X_input))):
         data_feature = extract_features(feature_type=feature_type,
