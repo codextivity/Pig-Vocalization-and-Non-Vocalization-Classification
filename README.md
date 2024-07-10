@@ -22,10 +22,28 @@ This study addresses the significance of animal sounds as valuable indicators of
   * [model_robustness.py](https://github.com/codextivity/Pig-Vocalization-and-Non-Vocalization-Classification/blob/main/model_robustness.py): This file is used to find model generalization efficiency by conducting robustness experimentation.
 
 ## Installation
+#### Install all required libraries with `pip` or `conda` command. 
+```
+tensorflow=2.10.0
+keras==2.10.0
+Keras-Preprocessing==1.1.2
+librosa=0.10.1
+matplotlib=3.7.4
+pandas=2.0.3
+pydub=0.25.1
+numpy==1.24.4
+scikit-learn==1.3.2
+scipy==1.10.1
+seaborn==0.13.0
+tensorboard==2.10.1
+tqdm==4.66.1
 
+```
 
 ## Citations
+### BibTeX
 
+```bibtex
 @Article{ani14142029,
 AUTHOR = {Pann, Vandet and Kwon, Kyeong-seok and Kim, Byeonghyeon and Jang, Dong-Hwa and Kim, Jong-Bok},
 TITLE = {DCNN for Pig Vocalization and Non-Vocalization Classification: Evaluate Model Robustness with New Data},
@@ -38,28 +56,4 @@ URL = {https://www.mdpi.com/2076-2615/14/14/2029},
 ISSN = {2076-2615},
 DOI = {10.3390/ani14142029}
 }
-
-
-## Licensing
-
-MIT License
-
-Copyright (c) 2024 codextivity
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```

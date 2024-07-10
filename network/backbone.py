@@ -1,4 +1,4 @@
-from keras.layers import Input, Dense, Activation, BatchNormalization, Conv2D, MaxPool2D, GlobalMaxPool2D, Dropout,Flatten, Resizing
+from keras.layers import Dense, Conv2D, MaxPool2D, Dropout, Flatten
 from keras.models import Model
 import tensorflow as tf
 
