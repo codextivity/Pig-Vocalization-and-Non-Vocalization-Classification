@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from sklearn import preprocessing
-from audio_augmentation import pitching, nosing, shifting, stretching
+from Utilities.audio_augmentation import pitching, nosing, shifting, stretching
 
 
 def load_dataset(dataset_dir):

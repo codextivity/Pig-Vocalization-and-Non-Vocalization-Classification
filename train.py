@@ -13,7 +13,7 @@ from sklearn.metrics import (accuracy_score,
                              ConfusionMatrixDisplay)
 
 # Dataset directory
-dataset_dir = 'Datasets/pig_vocal_nonvocal/'
+dataset_dir = 'Datasets/vocal_non-vocal/'
 # Load dataset
 features_X, features_Y = load_dataset(dataset_dir)
 # Reshape the label feature
@@ -24,8 +24,8 @@ X_train, X_test, y_train, y_test = train_test_split(features_X, features_Y, test
 
 class_labels = ['non-vocalization', 'vocalization']
 
-train_X, train_Y = dataset_augmentation(X_train, y_train, feature_type=2, aug=True)
-test_X, test_Y = dataset_augmentation(X_test, y_test, feature_type=2, aug=False)
+train_X, train_Y = dataset_augmentation(X_train, y_train, feature_type=5, aug=True)
+test_X, test_Y = dataset_augmentation(X_test, y_test, feature_type=5, aug=False)
 
 # Save log into tensorboard
 log_name = 'MelSpectrogram'
