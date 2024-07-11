@@ -10,7 +10,7 @@ from sklearn.metrics import (accuracy_score,
                              roc_curve, auc)
 
 # Dataset directory
-dataset_dir = 'Datasets/pig_vocal_nonvocal/'
+dataset_dir = 'Datasets/vocal_non-vocal/'
 # Load dataset
 features_X, features_Y = load_dataset(dataset_dir)
 # Reshape the label feature
@@ -28,7 +28,7 @@ minmax_scaler = preprocessing.MinMaxScaler()
 # Declare some arrays and dictionaries to store important values
 score_list = []
 histories = {}
-val_acc_hist, test_acc_hist = [],[]
+val_acc_hist, test_acc_hist = [], []
 
 roc_hist = {}
 fpr_list = []
@@ -50,8 +50,8 @@ for fold_idx, (train_index, val_index) in enumerate(k_fold.split(np.arange(len(i
     print(len(X_input), len(y_input), len(y_val))
 
     # Augment only training set
-    X_input, y_input = dataset_augmentation(X_input, y_input, aug=True)
-    X_val, y_val = dataset_augmentation(X_val, y_val, aug=False)
+    X_input, y_input = dataset_augmentation(X_input, y_input, feature_type=2, aug=True)
+    X_val, y_val = dataset_augmentation(X_val, y_val, feature_type=2, aug=False)
     print(X_input.shape)
     print(y_val.shape)
 

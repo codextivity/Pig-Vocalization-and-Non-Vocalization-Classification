@@ -10,7 +10,7 @@ from Utilities.audio_augmentation import pitching, nosing, shifting, stretching
 def load_dataset(dataset_dir):
     data_x, data_y = [], []
     for count, file_name in enumerate(os.listdir(dataset_dir)):
-        labels = file_name.split('-')[1]
+        labels = file_name.split('-')[2]
         file_path = dataset_dir+file_name
         y, sample = librosa.load(file_path)
         data_x.append(y)
@@ -104,6 +104,8 @@ def dataset_augmentation(X_input, y_input, feature_type=2, aug=True):
     data_X = data_X.reshape(data_X.shape[0], data_X.shape[1], data_X.shape[2], 1)
     data_Y = np.squeeze(data_Y, axis=1)
     data_Y = pd.get_dummies(data_Y).to_numpy(dtype='long')
+    print(data_X.shape)
+    print(data_Y.shape)
 
     return data_X, data_Y
 
