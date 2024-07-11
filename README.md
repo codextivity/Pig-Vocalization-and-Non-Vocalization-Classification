@@ -5,22 +5,6 @@
     <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/1.png" width="100%"></a>
 </h3>
 
-## Table Content
-
-<!-- TOC -->
-  * [Simple Summary](#simple-summary)
-  * [What's in this repository?](#whats-in-this-repository)
-  * [Installation](#installation)
-  * [Materials](#materials)
-    * [Work Diagram](#work-diagram)
-    * [Data Acquisition](#data-acquisition)
-    * [Data Augmentation](#data-augmentation)
-    * [Dataset](#dataset)
-    * [Results](#results)
-  * [Citation](#citation)
-  * [Table Content](#table-content)
-<!-- TOC -->
-
 ## Simple Summary
 
 This study addresses the significance of animal sounds as valuable indicators of both behavior and health in animals, emphasizing the challenges involved in collecting datasets for deep learning models. Particularly, in the context of classifying pig vocalization and non-vocalization, it is identified as laborious and time-consuming when relying on human efforts. In response to these challenges, the research proposes a new approach utilizing a deep learning model to automatically classify pig vocalization and non-vocalization with high accuracy. The success of this method not only provides an efficient means of collecting pig sound datasets but also presents a promising avenue for improving the classification of pig vocalization and non-vocalization in deep learning models, thereby contributing to advancements in animal behavior research and health monitoring.
@@ -89,7 +73,7 @@ Summary of the pig audio dataset used for model training and evaluation.
 </h3>
 
 
-### Results
+## Results
 The average results (%) of the accuracy, precision, recall, and F1‐score using a fivefold
 cross‐validation technique with the Nias, Gimje, and Jeongeup datasets.
 <h3 align="center">
@@ -133,3 +117,19 @@ ISSN = {2076-2615},
 DOI = {10.3390/ani14142029}
 }
 ```
+
+## Contents
+
+<!-- TOC -->
+  * [Simple Summary](#simple-summary)
+  * [What's in this repository?](#whats-in-this-repository)
+  * [Installation](#installation)
+  * [Materials](#materials)
+    * [Work Diagram](#work-diagram)
+    * [Data Acquisition](#data-acquisition)
+    * [Data Augmentation](#data-augmentation)
+    * [Dataset](#dataset)
+  * [Results](#results)
+  * [Citation](#citation)
+  * [Table Content](#table-content)
+<!-- TOC -->
