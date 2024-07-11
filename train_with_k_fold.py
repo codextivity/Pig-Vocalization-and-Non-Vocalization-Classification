@@ -50,8 +50,8 @@ for fold_idx, (train_index, val_index) in enumerate(k_fold.split(np.arange(len(i
     print(len(X_input), len(y_input), len(y_val))
 
     # Augment only training set
-    X_input, y_input = dataset_augmentation(X_input, y_input, feature_type=2, aug=True)
-    X_val, y_val = dataset_augmentation(X_val, y_val, feature_type=2, aug=False)
+    X_input, y_input = dataset_augmentation(X_input, y_input, feature_type=5, aug=True)
+    X_val, y_val = dataset_augmentation(X_val, y_val, feature_type=5, aug=False)
     print(X_input.shape)
     print(y_val.shape)
 
