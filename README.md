@@ -1,5 +1,5 @@
 
-# <h1 align="center">[DCNN for Pig Vocalization and Non-Vocalization Classification: Evaluate Model Robustness with New Data](https://www.mdpi.com/2076-2615/14/14/2029)</h1>
+<h1 align="center"> <a> <a href="https://www.mdpi.com/2076-2615/14/14/2029">DCNN for Pig Vocalization and Non-Vocalization Classification: Evaluate Model Robustness with New Data </a></h1>
 
 <h3>
     <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/1.png" width="100%"></a>
@@ -46,55 +46,55 @@ tqdm==4.66.1
 ### Work Diagram
 
  The overall flow diagram of the classification method.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/3.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/3.png" width="100%"></a>
 </h3>
 
 ### Data Acquisition
 
 The installation of recording devices inside the pig farm.
 <h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/2.png" width="50%"></a>
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/2.png" width="100%"></a>
 </h3>
 
 
 ### Data Augmentation
 
 Data augmentation visualization in the wave signals of each method.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/4.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/4.png" width="100%"></a>
 </h3>
 
 
 ### Dataset
 Summary of the pig audio dataset used for model training and evaluation.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/6.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/6.png" width="100%"></a>
 </h3>
 
 
 ### Results
 The average results (%) of the accuracy, precision, recall, and F1‐score using a fivefold
 cross‐validation technique with the Nias, Gimje, and Jeongeup datasets.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/8.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/8.png" width="100%"></a>
 </h3>
 
 The average robustness experiment results (%) of the accuracy, precision, recall, and F1‐
 score using a fivefold cross‐validation technique with the NGdb, NJdb, and GJdb datasets.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/7.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/7.png" width="100%"></a>
 </h3>
 
 
 The ROC curve visualization of the model classification performance.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/9.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/9.png" width="100%"></a>
 </h3>
 
 Comparison of the method computational complexity per signal input image.
-<h3>
-    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/10.png" width="50%"></a>
+<h3 align="center">
+    <a href="https://www.mdpi.com/2076-2615/14/14/2029"><img src="images/10.png" width="100%"></a>
 </h3>
 
 
